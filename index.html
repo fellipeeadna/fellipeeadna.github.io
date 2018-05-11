@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br" prefix="og: http://ogp.me/ns#" >
+<head>
+<meta charset="utf-8">
+<title>Fellipe e Adna - Save the date - 08.07.2018</title>
+
+<!-- OG teste -->
+<meta property="og:image" 			content="foto.jpeg" />
+<meta property="og:image:width"		content="400"/>
+<meta property="og:image:heigth"	content="300"/>
+<meta property="og:title"			content="Save the Date - Fellipe e Adna"/>
+ 
+<meta name="description" content="Poderíamos escrever aqui uma linda frase, poderíamos contar nossa história juntos, poderíamos escrever músicas, poesias e versos. Mas nada disso seria suficiente para descrever esse momento único que viveremos, porque sempre haveria mais uma linha, mais uma estrofe, mais um detalhe...">
+<meta name="author" content="Gustavo Alves">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Icone da página -->
+<link rel="icon" type="image/png" href="images/ico/marriage.png">
+<!--   Google fonts  -->
+<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=BenchNine:700' rel='stylesheet' type='text/css'>
+<!--   main stylesheet  -->
+<link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen" title="no title">
+<link id="colors" rel="stylesheet" href="stylesheets/red.css" type="text/css" media="screen" title="no title">
+<link rel="stylesheet" href="stylesheets/settings.css" type="text/css" media="screen" title="no title">
+
+<script >
+
+(function(doc) {
+
+var addEvent = 'addEventListener',
+    type = 'gesturestart',
+    qsa = 'querySelectorAll',
+    scales = [1, 1],
+    meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
+
+function fix() {
+	meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
+	doc.removeEventListener(type, fix, true);
+}
+
+if ((meta = meta[meta.length - 1]) && addEvent in doc) {
+	fix();
+	scales = [.25, 1.6];
+	doc[addEvent](type, fix, true);
+}
+
+}(document));
+</script>
+
+<!-- custom modernizr build -->
+<script src="javascript/modernizr.js"></script>
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- GoogleMaps -->
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<!-- GoogleMaps, photo gallery and slider -->
+<script src="javascript/libraries-ck.js"></script>
+<!-- custom js class -->
+<script src="javascript/save_the_date-ck.js"></script>
+
+<!-- SETTINGS STARTS -->
+<script>
+$(document).ready(function() {
+	// init Save the Date
+	save_the_date.init({
+		weddingDate: "2018/07/08, 20:30", 
+		//Date : enter your wedding date
+    labels: ["dias", "horas", "minutos", "segundos"], 
+		//Array of strings : labels of time units
+		});	
+	$(".fancybox").fancybox();
+});
+</script>
+
+<style>
+	div.foto{
+		float: left;
+		width: 20%;
+		padding-top: 0;
+	}
+	h2.galeria{
+		padding: 0px;
+	}
+	div.dizeres{
+		font-family:"Great Vibes";
+		font-weight:normal;
+		text-transform:none;
+		font-size:1.5em;
+		margin:0.5em 0 0.2em;
+		text-align: center;margin-left: 20%;margin-right: 20%;
+	}
+</style>
+<!-- SETTINGS ENDS -->
+
+<script src="javascript/init-ck.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<!--[if lt IE 9]> <body  id="top" class="ie-fix"><![endif]-->	
+<!--[if (gt IE 8)|!(IE)]><!--> 
+<body  id="top"><!--<![endif]-->
+	
+	<!--- NAVIGATION STARTS -->
+	<div class="nav-container">
+		<div class="nav">
+			<a  id="full-menu" href="#">&equiv;</a>
+			<a class="active to-scroll" href="#top">Início</a>
+			<a class="to-scroll" href="#about">Convite</a>
+			<a class="to-scroll" href="#ceremony">Datas</a>
+			<a class="to-scroll" href="#registry">Presentes</a>
+			<a class="to-scroll" href="#fotos">Fotos</a>
+			<a class="to-scroll" href="#rsvp">Contatos</a>
+			<div class="effect"></div>
+		</div>
+	</div>
+	<!--- NAVIGATION ENDS -->
+	
+	<!-- HEADER STARTS -->
+	<header class="header" role="banner">
+				<h1 class="wrapper"><span>Adna</span> & <span>Fellipe</span></h1>
+				<div class="images"><span class="her pile"></span><span class="him pile"></span></div> 
+				<h2>
+					<span class="event">vamos nos casar...</span>
+					<span class="date">08.07.2018</span>
+					<span id="timer" class="timer"></span>
+				</h2>		
+	</header>	
+	<!-- HEADER ENDS -->
+	
+	<!--- MAIN CONTENT STARTS -->
+	<div class="content">
+	
+			<!-- ABOUT SECTION STARTS -->
+			<section id="about" class="about clearfix">	
+				<div class="they">
+					<h3>
+						Poderíamos escrever aqui uma linda frase, poderíamos contar nossa história juntos, poderíamos escrever músicas, poesias e versos. Mas nada disso seria suficiente para descrever esse momento único que viveremos, porque sempre haveria mais uma linha, mais uma estrofe, mais um detalhe...
+					</h3>
+
+					<h3>
+						<br>
+					</h3>
+			</section>
+			<!-- ABOUT SECTION ENDS -->
+			
+			
+			<!-- CEREMONY SECTION STARTS -->
+			<section  id="ceremony" class="flex-container ceremony">
+				
+				<div class="flexslider">
+					<ul class="slides">
+						<li style="background-image: url(images/slide0.jpeg);"></li>
+						<li style="background-image: url(images/slide1.jpeg);"></li>
+						<li style="background-image: url(images/slide2.jpeg);"></li>
+						<li style="background-image: url(images/slide3.jpeg);"></li>
+					</ul>
+				</div>
+
+				<div  class="wrapper clearfix">
+					
+						<h2 class="title">Datas</h2>
+
+						<!-- IGREJA -->
+						<div class="">
+							<h1>Espaço Vivara</h1>
+							<span class="image pile">
+								<img src="images/igreja.jpg" width="300" height="300" alt="Igreja">
+							</span>
+							<div>
+								16:00H
+								</br><a href="https://www.google.com/maps/search/espa%C3%A7o+vivara" target="_blank">Rod GO-070, Km 6, Parque Maracana, Goiânia - GO</a>
+							</div>
+							<!-- <a class="map" data-lat="-16.668329" data-lng="-49.328608" data-title="Cerimônia">Mostrar no Google Maps</a> -->
+							<div class="pile my_map"><div id="map-ceremony"></div></div>
+						</div>
+					</div>
+			</section>
+			<!-- CEREMONY SECTION ENDS -->
+
+			<!--- REGISTRY STARTS -->	
+			<section id="registry" class="registry">
+				<div class="wrapper">
+					<h2 class="title">Presentes</h2>
+					<h3>Sua presença é o suficiente.
+					<br>Maaas, se você estiver tomado de uma extrema generosidade,
+					<br>criamos algumas listinhas para sua comodidade.</h3>
+					<h3><a href="presentes.html">Veja nossa lista de móveis e eletrodomesticos</a></h3>
+					<h3><a href="cha-de-panela.html">Veja nossa lista de utensílios para cozinha</a></h3>
+
+				</div>
+			</section>
+			<!--- REGISTRY ENDS -->	
+
+			<!--- FOTOS STARTS -->	
+			<section id="fotos" class="fotos">
+				<div class="wrapper">
+					<h2 class="title">Fotos</h2>
+					<h2 class="galeria">
+						<div class="foto">
+							<a class="fancybox" rel="group" href="images/gallery/gallery1.jpeg"> <!-- foto grande -->
+								<img src="images/gallery/capa(1).jpeg" alt="Foto" />  <!-- miniatura (colocar todas em um tamanhofixo -->
+							</a>
+						</div>
+						<div class="foto">
+							<a class="fancybox" rel="group" href="images/gallery/gallery2.jpeg">
+								<img src="images/gallery/capa(2).jpeg" alt="Foto" /> 
+							</a>
+						</div>
+						<div class="foto">
+							<a class="fancybox" rel="group" href="images/gallery/gallery3.jpeg">
+								<img src="images/gallery/capa(3).jpeg" alt="Foto" /> 
+							</a>
+						</div>
+						<div class="foto">
+							<a class="fancybox" rel="group" href="images/gallery/gallery4.jpeg">
+								<img src="images/gallery/capa(4).jpeg" alt="Foto" /> 
+							</a>
+						</div>
+						<div class="foto">
+							<a class="fancybox" rel="group" href="images/gallery/gallery5.jpeg">
+								<img src="images/gallery/capa(5).jpeg" alt="Foto" /> 
+							</a>
+						</div>
+						<div class="foto">
+							<a class="fancybox" rel="group" href="images/gallery/gallery6.jpeg">
+								<img src="images/gallery/capa(6).jpeg" alt="Foto" /> 
+							</a>
+						</div>
+						<div class="foto">
+							<a class="fancybox" rel="group" href="images/gallery/gallery7.jpeg">
+								<img src="images/gallery/capa(7).jpeg" alt="Foto" /> 
+							</a>
+						</div>
+						<div class="foto">
+							<a class="fancybox" rel="group" href="images/gallery/gallery8.jpeg">
+								<img src="images/gallery/capa(8).jpeg" alt="Foto" /> 
+							</a>
+						</div>
+						<div class="foto">
+							<a class="fancybox" rel="group" href="images/gallery/gallery9.jpeg">
+								<img src="images/gallery/capa(9).jpeg" alt="Foto" /> 
+							</a>
+						</div>
+						<div class="foto">
+							<a class="fancybox" rel="group" href="images/gallery/gallery10.jpeg">
+								<img src="images/gallery/capa(10).jpeg" alt="Foto" /> 
+							</a>
+						</div>
+						<br style="clear: both"/>
+					</h2>
+				</div>
+			</section>
+			<!--- FOTOS ENDS -->
+
+
+			<!--- RSVP STARTS -->
+			<section id="rsvp" class="contact">
+					<h2 class="title">Contatos</h2>
+				<div class="wrapper">
+
+					<h3>Nossos contatos</h3>
+					<div class="contact-details contact-details-1">
+						<h4>Fellipe</h4>
+						<small>whatsapp </small> <small>OI -  62</small> 98625 8854 </p>
+						
+							<a href="https://pt-br.facebook.com/fellipe.lopes.1" target="_blank"><img src="images/svg/facebook.svg" width="24" height="24"></a>  &nbsp;&nbsp;
+							<a href="http://instagram.com/fellipe_l10" target="_blank"><img src="images/svg/instagram.svg" width="24" height="24"></a> &nbsp;&nbsp;
+					</div>
+					<div class="contact-details contact-details-2">
+						<h4>Adna</h4>
+						<small>  </small> <small> </small>  </p></br>
+							<a href="https://pt-br.facebook.com/adnaesther.parlandimmagalhaes" target="_blank"><img src="images/svg/facebook.svg" width="24" height="24"></a>  &nbsp;&nbsp;
+							<a href="http://instagram.com/adna_parlandim" target="_blank"><img src="images/svg/instagram.svg" width="24" height="24"></a> &nbsp;&nbsp;
+					</div>
+				</div>
+					
+			</section>
+			<!--- RSVP ENDS -->
+			
+			<!-- FOOTER STARTS -->
+			<footer id="footer">	
+				<p class="copyright"> 
+					&copy; 2018-<a href="http://gstvinf.github.io" target="_blank">gstvinf.com</a><div class="fb-like" data-href="http://gstvinf.github.io" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+				</p>
+				<!-- botoes facebook -->
+				
+			</footer>
+			<!-- FOOTER ENDS -->
+			
+		</div>	
+		<!--- MAIN CONTENT ENDS -->
+		
+</body>
+</html>
